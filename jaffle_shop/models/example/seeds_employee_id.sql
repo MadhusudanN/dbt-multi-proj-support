@@ -1,1 +1,0 @@
-select employee_id from {{ ref('employee_ids') }}
