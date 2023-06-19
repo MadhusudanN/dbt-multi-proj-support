@@ -3,4 +3,4 @@
 
 select *
 from {{ ref('first_dbt_model') }}
-where id = 1
+where config = 1
